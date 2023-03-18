@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HibernateModule/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/hibernate.cfg.xml" afterDir="false" />
-    </list>
+    <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +24,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="redshift&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/HibernateModule/src/lib/mysql-connector-java-8.0.11.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -91,11 +90,30 @@
       <workItem from="1678976076464" duration="1744000" />
       <workItem from="1679029432342" duration="433000" />
       <workItem from="1679041225504" duration="1492000" />
-      <workItem from="1679103107271" duration="11400000" />
+      <workItem from="1679103107271" duration="11858000" />
     </task>
+    <task id="LOCAL-00001" summary="Updates everything in the Day 01 lecture.">
+      <created>1679125114830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679125114830</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updates everything in the Day 01 lecture.">
+      <created>1679125132009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679125132009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updates everything in the Day 01 lecture." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates everything in the Day 01 lecture." />
   </component>
 </project>
