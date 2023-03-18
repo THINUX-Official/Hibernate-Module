@@ -4,8 +4,8 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_module</property>
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property> <!--Load the JDBC Driver, for Store data in the MySQL Server, using Java-->
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_module</property> <!--URL of the MySQL Database-->
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">1234</property>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property> <!--MySQL version-->
