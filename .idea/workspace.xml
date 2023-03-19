@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HibernateModule/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/AppInitializer.java" afterDir="false" />
-    </list>
+    <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,7 @@
       <workItem from="1679029432342" duration="433000" />
       <workItem from="1679041225504" duration="1492000" />
       <workItem from="1679103107271" duration="12505000" />
-      <workItem from="1679201892082" duration="6027000" />
+      <workItem from="1679201892082" duration="6378000" />
     </task>
     <task id="LOCAL-00001" summary="Updates everything in the Day 01 lecture.">
       <created>1679125114830</created>
@@ -124,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679208982602</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Learned the CURD operations using Hibernates.">
+      <created>1679212079186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679212079186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updates everything in the Day 01 lecture." />
     <MESSAGE value="Define the hibernate.cfg.xml file's code lines." />
-    <option name="LAST_COMMIT_MESSAGE" value="Define the hibernate.cfg.xml file's code lines." />
+    <MESSAGE value="Learned the CURD operations using Hibernates." />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned the CURD operations using Hibernates." />
   </component>
 </project>
