@@ -29,8 +29,25 @@ public class AppInitializer {
 
         Transaction transaction = session.beginTransaction();
 
-//        session.save(c1);
+        // Every code should be in between here.
+
+        // for save customer
         session.save(c2);
+
+        // for update customer
+        /*session.update(c1);*/
+
+        // for get customer
+        /*Customer c = session.get(Customer.class, 1l);
+        System.out.println(c);
+        System.out.println(c.getName() + " - " + c.getAddress());*/
+
+        // for delete customer
+        /*Customer c = new Customer();
+        c.setId(2l);
+        session.delete(c);*/
+
+
 
         transaction.commit();
 
