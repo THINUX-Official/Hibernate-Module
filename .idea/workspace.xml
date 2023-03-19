@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="" />
+    <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="Updates everything in the Day 01 lecture.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12f7ba4e-2a22-4802-bda8-3f59a0ccebb3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12f7ba4e-2a22-4802-bda8-3f59a0ccebb3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12f7ba4e-2a22-4802-bda8-3f59a0ccebb3/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12f7ba4e-2a22-4802-bda8-3f59a0ccebb3/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/12f7ba4e-2a22-4802-bda8-3f59a0ccebb3/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/165fc9cc-b86a-4dd3-8a89-b63132e46e35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/165fc9cc-b86a-4dd3-8a89-b63132e46e35/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/165fc9cc-b86a-4dd3-8a89-b63132e46e35/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/165fc9cc-b86a-4dd3-8a89-b63132e46e35/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/165fc9cc-b86a-4dd3-8a89-b63132e46e35/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aeec02f-41fa-4c91-a636-a03e937c679b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aeec02f-41fa-4c91-a636-a03e937c679b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aeec02f-41fa-4c91-a636-a03e937c679b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aeec02f-41fa-4c91-a636-a03e937c679b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aeec02f-41fa-4c91-a636-a03e937c679b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981bebd-7ebe-441e-b5bc-c6f361d543d8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981bebd-7ebe-441e-b5bc-c6f361d543d8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981bebd-7ebe-441e-b5bc-c6f361d543d8/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981bebd-7ebe-441e-b5bc-c6f361d543d8/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981bebd-7ebe-441e-b5bc-c6f361d543d8/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c0b49a9-d94f-461e-ad78-2bf57ff3da16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c0b49a9-d94f-461e-ad78-2bf57ff3da16/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c0b49a9-d94f-461e-ad78-2bf57ff3da16/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c0b49a9-d94f-461e-ad78-2bf57ff3da16/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4c0b49a9-d94f-461e-ad78-2bf57ff3da16/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63c93340-d1c1-421c-b476-2ec599fe5133.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63c93340-d1c1-421c-b476-2ec599fe5133/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63c93340-d1c1-421c-b476-2ec599fe5133/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63c93340-d1c1-421c-b476-2ec599fe5133/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/63c93340-d1c1-421c-b476-2ec599fe5133/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e8cc9d0-4788-4cb5-bfef-1ae88bac9872.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e8cc9d0-4788-4cb5-bfef-1ae88bac9872/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e8cc9d0-4788-4cb5-bfef-1ae88bac9872/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e8cc9d0-4788-4cb5-bfef-1ae88bac9872/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e8cc9d0-4788-4cb5-bfef-1ae88bac9872/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985cd007-6068-41a3-b7fd-1e0644200c89.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985cd007-6068-41a3-b7fd-1e0644200c89/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985cd007-6068-41a3-b7fd-1e0644200c89/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985cd007-6068-41a3-b7fd-1e0644200c89/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/985cd007-6068-41a3-b7fd-1e0644200c89/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aefef313-1fe9-4687-a91f-86373a8ed1bd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aefef313-1fe9-4687-a91f-86373a8ed1bd/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aefef313-1fe9-4687-a91f-86373a8ed1bd/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aefef313-1fe9-4687-a91f-86373a8ed1bd/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aefef313-1fe9-4687-a91f-86373a8ed1bd/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0e36ec0-f2a0-45a3-ba6e-8b31882db4b3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0e36ec0-f2a0-45a3-ba6e-8b31882db4b3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0e36ec0-f2a0-45a3-ba6e-8b31882db4b3/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0e36ec0-f2a0-45a3-ba6e-8b31882db4b3/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c0e36ec0-f2a0-45a3-ba6e-8b31882db4b3/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7b2c039-7414-46b2-b9a6-54edce176299.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7b2c039-7414-46b2-b9a6-54edce176299/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7b2c039-7414-46b2-b9a6-54edce176299/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7b2c039-7414-46b2-b9a6-54edce176299/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d7b2c039-7414-46b2-b9a6-54edce176299/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateModule/HibernateModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/HibernateModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateModule/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateModule/src/util/FactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/util/FactoryConfiguration.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +153,7 @@
       <workItem from="1679029432342" duration="433000" />
       <workItem from="1679041225504" duration="1492000" />
       <workItem from="1679103107271" duration="12505000" />
+      <workItem from="1679201892082" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="Updates everything in the Day 01 lecture.">
       <created>1679125114830</created>

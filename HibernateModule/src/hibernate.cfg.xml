@@ -4,12 +4,13 @@
     "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
   <session-factory>
-    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property> <!--Load the JDBC Driver, for Store data in the MySQL Server, using Java-->
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property> <!--Load the JDBC Driver(Connector), for Store data in the MySQL Server, using Java-->
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_module</property> <!--URL of the MySQL Database-->
+    <!--<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_module ? createDatabaseIfNotExist = true</property>--> <!--URL of the MySQL Database & also Create the database if not exists-->
     <property name="hibernate.connection.username">root</property>
     <property name="hibernate.connection.password">1234</property>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property> <!--MySQL version-->
-    <property name="hibernate.show_sql">true</property>
-    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.show_sql">true</property> <!--Executing queries in the console is showing or not-->
+    <property name="hibernate.hbm2ddl.auto">update</property> <!--Wanna drop everything each executing times or not-->
   </session-factory>
 </hibernate-configuration>
