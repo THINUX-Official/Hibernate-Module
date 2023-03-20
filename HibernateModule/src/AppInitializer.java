@@ -32,7 +32,7 @@ public class AppInitializer {
         // Every code should be in between here.
 
         // for save customer
-        session.save(c2);
+        /*session.save(c2);*/
 
         // for update customer
         /*session.update(c1);*/
@@ -46,8 +46,6 @@ public class AppInitializer {
         /*Customer c = new Customer();
         c.setId(2l);
         session.delete(c);*/
-
-
 
         transaction.commit();
 
