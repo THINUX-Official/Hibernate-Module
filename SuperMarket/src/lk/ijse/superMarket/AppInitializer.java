@@ -5,6 +5,8 @@ package lk.ijse.superMarket;
     @created 20-Mar-23 - 09:34 
 */
 
+import lk.ijse.superMarket.embended.Name;
+import lk.ijse.superMarket.entity.Customer;
 import lk.ijse.superMarket.entity.Item;
 import lk.ijse.superMarket.util.FactoryConfiguration;
 import org.hibernate.Session;
@@ -20,12 +22,24 @@ public class AppInitializer {
         i1.setPrice(2500);
         i1.setQty(10);
 
+        Name n1 = new Name();
+        n1.setfName("Thinusha");
+        n1.setmName("Supun");
+        n1.setlName("Dilhara");
+
+        Customer c1 = new Customer();
+
+        c1.setId(1l);
+        c1.setName(n1);
+        c1.setAddress("Galle");
+        c1.setSalary(200000);
+
         Session session = FactoryConfiguration.getInstance().getSession();
 
         Transaction transaction = session.beginTransaction();
 
         //save
-        session.save(i1);
+        session.save(c1);
 
         //update
 //        session.update(i1);
