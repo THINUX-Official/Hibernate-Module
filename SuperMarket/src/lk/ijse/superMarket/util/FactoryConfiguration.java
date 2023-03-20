@@ -5,6 +5,8 @@ package lk.ijse.superMarket.util;
     @created 20-Mar-23 - 09:44 
 */
 
+import lk.ijse.superMarket.entity.Customer;
+import lk.ijse.superMarket.entity.Item;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -14,11 +16,15 @@ public class FactoryConfiguration {
     private SessionFactory sessionFactory;
 
     private FactoryConfiguration(){
-        Configuration configuration = new Configuration();
+        Configuration configuration = new Configuration().configure()
+                .addAnnotatedClass(Item.class)
+                .addAnnotatedClass(Customer.class);
+
+        sessionFactory = configuration.buildSessionFactory();
     }
 
     public static FactoryConfiguration getInstance(){
-        return factoryConfiguration == null ? new FactoryConfiguration()
+        return (factoryConfiguration == null) ? factoryConfiguration =  new FactoryConfiguration()
                 : factoryConfiguration;
     }
 
