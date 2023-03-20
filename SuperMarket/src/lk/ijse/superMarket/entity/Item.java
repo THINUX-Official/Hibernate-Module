@@ -5,10 +5,10 @@ package lk.ijse.superMarket.entity;
     @created 20-Mar-23 - 09:50 
 */
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import org.hibernate.annotations.CreationTimestamp;
+
+import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name = "item")
@@ -25,6 +25,12 @@ public class Item {
 
     @Column(name = "item_quantity")
     private int qty;
+
+    @Transient
+    int count;
+
+    @CreationTimestamp
+    Date date;
 
     public Item() {
     }
