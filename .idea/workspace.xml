@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SuperMarket/SuperMarket.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SuperMarket/src/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateModule/src/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateModule/src/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HibernateModule/HibernateModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/HibernateModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HibernateModule/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HibernateModule/src/util/FactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/util/FactoryConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +106,7 @@
       <workItem from="1679201892082" duration="6896000" />
       <workItem from="1679246103351" duration="1351000" />
       <workItem from="1679284357874" duration="480000" />
+      <workItem from="1679633495240" duration="1383000" />
     </task>
     <task id="LOCAL-00001" summary="Updates everything in the Day 01 lecture.">
       <created>1679125114830</created>
