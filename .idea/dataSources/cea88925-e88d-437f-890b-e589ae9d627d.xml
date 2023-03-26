@@ -1017,5 +1017,47 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
+    <table id="300" parent="7" name="laptop">
+      <Engine>MyISAM</Engine>
+    </table>
+    <table id="301" parent="7" name="student">
+      <Engine>MyISAM</Engine>
+    </table>
+    <column id="302" parent="300" name="laptop_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="303" parent="300" name="laptop_description">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="304" parent="300" name="student_student_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+    </column>
+    <index id="305" parent="300" name="FKjmarpvdtj15vxa9rrru1s2mfj">
+      <ColNames>student_student_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="306" parent="300" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>laptop_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="307" parent="301" name="student_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="308" parent="301" name="student_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="309" parent="301" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>student_id</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

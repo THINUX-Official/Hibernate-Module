@@ -2,13 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="019e359a-429e-4a3f-82b0-2c0bb3e6dfba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HibernateModule/src/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HibernateModule/src/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/.idea/libraries/mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/HibernateLayered.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/AppInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/entity/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/byte-buddy-1.11.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/hibernate-core-5.6.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/jandex-2.2.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/jboss-logging-3.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/lib/required/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/projection/CustomerDetailsDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/repository/CustomerRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/util/SessionFactoryConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/out/production/hibernate-layered/lk/ijse/hibernate/layered/util/Utility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/byte-buddy-1.11.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/hibernate-core-5.6.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/jandex-2.2.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/jboss-logging-3.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/lib/required/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/projection/CustomerDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/util/SessionFactoryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HibernateLayered/src/lk/ijse/hibernate/layered/util/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/HibernateLayered.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/hibernate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/byte-buddy-1.11.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/hibernate-core-5.6.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/jandex-2.2.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/jboss-logging-3.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/lib/required/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/projection/CustomerDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/util/SessionFactoryConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-layered/src/lk/ijse/hibernate/layered/util/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d67105e-e042-4808-abbe-469ac0d47220.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d67105e-e042-4808-abbe-469ac0d47220/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d67105e-e042-4808-abbe-469ac0d47220/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d67105e-e042-4808-abbe-469ac0d47220/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3d67105e-e042-4808-abbe-469ac0d47220/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9e29df8c-6fc4-44b7-8c20-b132942eb572.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9e29df8c-6fc4-44b7-8c20-b132942eb572/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9e29df8c-6fc4-44b7-8c20-b132942eb572/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9e29df8c-6fc4-44b7-8c20-b132942eb572/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9e29df8c-6fc4-44b7-8c20-b132942eb572/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cea88925-e88d-437f-890b-e589ae9d627d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cea88925-e88d-437f-890b-e589ae9d627d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HibernateModule/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/AppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HibernateModule/src/util/FactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/HibernateModule/src/util/FactoryConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +202,8 @@
       <workItem from="1679201892082" duration="6896000" />
       <workItem from="1679246103351" duration="1351000" />
       <workItem from="1679284357874" duration="480000" />
-      <workItem from="1679633495240" duration="1383000" />
+      <workItem from="1679633495240" duration="3005000" />
+      <workItem from="1679798311487" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="Updates everything in the Day 01 lecture.">
       <created>1679125114830</created>
@@ -157,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679212167898</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create new Tables (Student &amp; Laptop) and test the OneToOne relation.">
+      <created>1679635190296</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679635190296</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +272,7 @@
     <MESSAGE value="Updates everything in the Day 01 lecture." />
     <MESSAGE value="Define the hibernate.cfg.xml file's code lines." />
     <MESSAGE value="Learned the CURD operations using Hibernates." />
-    <option name="LAST_COMMIT_MESSAGE" value="Learned the CURD operations using Hibernates." />
+    <MESSAGE value="Create new Tables (Student &amp; Laptop) and test the OneToOne relation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create new Tables (Student &amp; Laptop) and test the OneToOne relation." />
   </component>
 </project>

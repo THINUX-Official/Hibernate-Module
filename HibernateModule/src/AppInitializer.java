@@ -38,6 +38,17 @@ public class AppInitializer {
         l1.setDesc("ASUS");
         l1.setStudent(s1);
 
+        Student s2 = new Student();
+
+        s2.setsId(2L);
+        s2.setName("Supun");
+
+        Laptop l2 = new Laptop();
+
+        l2.setlId(2L);
+        l2.setDesc("HP");
+        l2.setStudent(s2);
+
         Session session = FactoryConfiguration.getInstance().getSession();
 
         Transaction transaction = session.beginTransaction();
@@ -60,8 +71,8 @@ public class AppInitializer {
         c.setId(2l);
         session.delete(c);*/
 
-        session.save(s1);
-        session.save(l1);
+        session.save(s2);
+        session.save(l2);
 
         transaction.commit();
 
